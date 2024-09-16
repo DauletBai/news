@@ -1,3 +1,4 @@
+-- 001_init.sql
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     username VARCHAR(50) UNIQUE NOT NULL,
@@ -24,3 +25,8 @@ CREATE TABLE articles (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
+
+-- Dump articles
+INSERT INTO articles (title, content) VALUES ('Welcome to my blog', 'This is the first post on this blog.');
+INSERT INTO articles (title, content) VALUES ('Go is awesome', 'Let me you why Go is one of the best language.');
+INSERT INTO articles (title, content) VALUES ('SQLite and Go', 'How to use SQLite in Go applications.');
