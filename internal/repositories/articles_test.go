@@ -5,7 +5,7 @@ import (
     "testing"
 
     "github.com/DATA-DOG/go-sqlmock"
-    "news/internal/models"
+    "https://github.com/DauletBai/news/internal/models"
 )
 
 func TestGetAllArticles(t *testing.T) {

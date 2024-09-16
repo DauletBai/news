@@ -2,7 +2,7 @@ package repositories
 
 import (
     "database/sql"
-    "news/internal/models"
+    "https://github.com/DauletBai/news/internal/models"
 )
 
 func GetAllArticles(db *sql.DB) ([]models.Article, error) {

@@ -5,7 +5,7 @@ import (
     "fmt"
     "log"
     _ "github.com/lib/pq"
-    "news/internal/config"
+    "https://github.com/DauletBai/news/internal/config"
 )
 
 func Connect(cfg config.DBConfig) *sql.DB {

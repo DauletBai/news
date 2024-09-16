@@ -3,9 +3,9 @@ package main
 import (
     "log"
     "net/http"
-    "news/internal/config"
-    "news/internal/database"
-    "news/internal/handlers"
+    "https://github.com/DauletBai/news/internal/config"
+    "https://github.com/DauletBai/news/internal/database"
+    "https://github.com/DauletBai/news/internal/handlers"
     "path/filepath"
     "text/template"
 )
