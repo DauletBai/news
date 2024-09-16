@@ -6,8 +6,8 @@ News portal website using the Go programming language.
 
 ## Screenshot light theme
 
-![Light theme](static/assets/img/light.jpg)
+![Light theme](static/assets/img/light.png)
 
 ## Screenshot dark theme
 
-![Light theme](static/assets/img/dark.jpg)
+![Light theme](static/assets/img/dark.png)
